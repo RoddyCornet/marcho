@@ -268,7 +268,7 @@ footer {
 	&__item {
 		background-color: #fff;
 		position: relative;
-		 z-index: 1;
+		z-index: 1;
 		width: 370px;
 		padding: 60px 30px;
 		box-shadow: 20px 0px 60px 0px rgba(202, 202, 202, 0.35);
@@ -340,5 +340,73 @@ footer {
 		transition: all 0.3s;
 	}
 }
+
+.video-fashion {
+	background-color: $bg;
+	background-image: url("@img/decor/pattern.svg");
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 125px 0;
+	&__inner {
+		display: flex;
+	}
+	&__popup {
+		margin-right: 60px;
+		max-width: 530px;
+		height: 460px;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+	}
+	&__content {
+		max-width: 570px;
+	}
+	&__subtitle{
+		padding-top: 75px;
+		font-size: 22px;
+		color: $accent;
+		text-transform: uppercase;
+		margin-bottom: 5px;
+	}
+	&__title{
+		text-align: left;
+		
+	}
+	&__text{
+		margin-bottom: 55px;
+	}
+	&__link{
+		@extend %btn;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @import "media";
